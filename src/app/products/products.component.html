@@ -1,0 +1,85 @@
+<div class="clearfix">
+    <div class="col-md-12">
+        <div class="col-md-12">
+            <div class="jumbotron">
+                <!--<span>Filtered by:</span>
+                <span><input type="text" [(ngModel)]='listFilter' placeholder="Codigo"></span>
+                <h3>Filtered by: {{listFilter}}</h3>-->
+            </div>
+        </div>
+    </div>
+    <div class="col-md-12">
+        <div class="col-md-2">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Marcas</h3>
+            </div>
+            <div class="panel-body">
+                <button style="margin: 5px; outline: 0" 
+                    *ngFor="let marca of marcas" 
+                    class="btn btn-primary" 
+                    (click)="applyFilter(marca.name)"
+                    (click)="onSelectM(marca.name)"
+                    [class.active]="selectMarca === marca.name">
+                    {{ marca.name }}
+                </button>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Categorias</h3>
+            </div>
+            <div class="panel-body">
+                <button style="margin: 5px; outline: 0" 
+                    *ngFor="let categoria of categorias"
+                    class="btn btn-primary" 
+                    (click)="applyFilter(categoria.name)"
+                    (click)="onSelectC(categoria.name)"
+                    [class.active]="selectCateg === categoria.name">
+                    {{ categoria.name }}
+                </button>
+            </div>
+        </div>
+</div>
+
+    <div class="col-md-10">
+    <div class="panel panel-primary">
+        <div class="panel-heading text-center">
+            <button style="outline: 0"
+                class="btn btn-default pull-left" 
+                (click)="applyFilter('ALL')"
+                (click)="onSelectAll()"
+                [class.active]="selectAll === 'Todo'">
+                Ver Todo
+            </button>
+            <span class="pull-right">
+                <input type="text" 
+                [(ngModel)]='listFilter' 
+                placeholder="Codigo" 
+                class="form-control">
+            </span>
+            <h3 class="panel-title">Filtro:<br /> {{ titleShow  }}</h3>
+            
+        </div>
+        <div class="panel-body">
+            <div class="col-sm-6 col-md-3" *ngFor="let product of filterproducts">
+                <div class="thumbnail">
+                    <img src="{{ product.image }}" alt="..." style="width: 150px; height: 100px;">
+                    <div class="caption">
+                        <h5>{{ product.name }}</h5>
+                        <p>
+                            Codigo: {{ product.productId }}
+                            <br />Marca: {{ product.brand }}
+                            <br />Precio: {{ product.price | currency }}
+                            <br />Catergoria: {{ product.category }}
+                        </p>
+                        <p>{{ product.description }}</p>
+                    </div>
+                </div>
+            </div>
+            <div  *ngIf='filterproducts?.length === 0'>No exist the item {{ titleShow  }}</div>
+        </div>
+    </div>
+</div>
+</div>
+</div>

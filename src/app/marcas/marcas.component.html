@@ -1,0 +1,12 @@
+<div class="col-md-2">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">Marcas</h3>
+        </div>
+        <div class="panel-body">
+            <div *ngFor="let marca of marcas" style="margin: 5px">
+                <button class="btn btn-primary">{{ marca.name }}</button>
+            </div>
+        </div>
+    </div>
+</div>

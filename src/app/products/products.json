@@ -1,0 +1,38 @@
+[
+    {
+        "productId": "001",
+        "name": "Llanta 1",
+        "brand": "Marca 1",
+        "description": "Best Product",
+        "price": "44.99",
+        "image": "../assets/images/products/llantas.jpeg",
+        "category": "Nuevos"
+    },
+    {
+        "productId": "002",
+        "name": "Llanta 2",
+        "brand": "Marca 2",
+        "description": "Best Product",
+        "image": "../assets/images/products/llantas.jpeg",
+        "price": "44.99",
+        "category": "Nuevos"
+    },
+    {
+        "productId": "003",
+        "name": "Llanta 4",
+        "brand": "Marca 3",
+        "description": "Best Product",
+        "image": "../assets/images/products/llantas.jpeg",
+        "price": "44.99",
+        "category": "Otros"
+    },
+    {
+        "productId": "104",
+        "name": "Llanta 5",
+        "brand": "Marca 3",
+        "description": "Best Product",
+        "image": "../assets/images/products/llantas.jpeg",
+        "price": "44.99",
+        "category": "Otros"
+    }
+]
