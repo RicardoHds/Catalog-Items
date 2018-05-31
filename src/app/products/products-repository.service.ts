@@ -1,29 +1,40 @@
+import { Injectable } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 
-import { Injectable, Inject } from '@angular/core';
 import { Observable, throwError } from 'rxjs';
+import { map, tap, catchError } from 'rxjs/operators';
+
 import { Subject } from 'rxjs';
-
-// import { HttpClient } from 'selenium-webdriver/http';
-import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { IProduct } from './products';
-
-import { catchError, mapTo } from 'rxjs/operators';
-
-
 
 
 @Injectable()
-
 export class ProductRepositoryService {
-    private _productUrl = './products.json';
+    private _productUrl = './api/products/products.json';
 
-    private handleError(err: HttpErrorResponse) {
-        console.log(err.message);
-        return Observable.throw(err.message);
+    constructor(private _http: HttpClient) { }
+
+    getProducts(): Observable<IProduct[]> {
+        return this._http.get<IProduct[]>(this._productUrl).pipe(
+        // tap(data => console.log('Products: ' + JSON.stringify(data))),
+        tap(),
+        catchError(this.handleError), );
     }
 
-    constructor(private _http: HttpClient) {}
+    private handleError(err) {
+        let errorMessage = '';
+        if (err.error instanceof Error) {
+          errorMessage = `An error occurred: ${err.error.message}`;
+        } else {
+          errorMessage = `Server returned code: ${err.status}, error message is: ${err.message}`;
+        }
+        console.error(errorMessage);
+        return throwError(errorMessage);
+      }
+    }
 
+/*
+    Code before apply service
     getProduct(): Observable<any[]> {
         const subject = new Subject<any>();
         const productStatus =
@@ -34,9 +45,9 @@ export class ProductRepositoryService {
             subject.next(productStatus);
             subject.complete();
         }, 200);
+        console.log(subject);
         return subject;
     }
-
 
     getMarcas(): Observable<any[]> {
         const subject = new Subject<any>();
@@ -63,69 +74,4 @@ export class ProductRepositoryService {
         }, 200);
         return subject;
     }
-}
-
-const productos = [
-    {
-        productId: '001',
-        name: 'Llanta 1',
-        brand: 'Marca 1',
-        description: 'Best Product',
-        price: '44.99',
-        image: '../assets/images/products/llantas.jpeg',
-        category: 'Nuevos'
-    },
-    {
-        productId: '002',
-        name: 'Llanta 2',
-        brand: 'Marca 2',
-        description: 'Best Product',
-        image: '../assets/images/products/llantas.jpeg',
-        price: '44.99',
-        category: 'Nuevos'
-    },
-    {
-        productId: '003',
-        name: 'Llanta 4',
-        brand: 'Marca 3',
-        description: 'Best Product',
-        image: '../assets/images/products/llantas.jpeg',
-        price: '44.99',
-        category: 'Otros'
-    },
-    {
-        productId: '104',
-        name: 'Llanta 5',
-        brand: 'Marca 3',
-        description: 'Best Product',
-        image: '../assets/images/products/llantas.jpeg',
-        price: '44.99',
-        category: 'Otros'
-    }
-];
-
-const marcas = [
-    {
-        brandId: '001',
-        name: 'Marca 1'
-    },
-    {
-        brandId: '002',
-        name: 'Marca 2'
-    },
-    {
-        brandId: '003',
-        name: 'Marca 3'
-    }
-];
-
-const categorias = [
-    {
-        categoryId: '001',
-        name: 'Nuevos'
-    },
-    {
-        categoryId: '002',
-        name: 'Usados'
-    }
-];
+    */
