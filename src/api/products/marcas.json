@@ -2,5 +2,13 @@
     {
         "brandId": "001",
         "name": "JLG"
+    },
+    {
+        "brandId": "002",
+        "name": "GENIE"
+    },
+    {
+        "brandId": "003",
+        "name": "SNORKEL"
     }
 ]

@@ -1,47 +1,1211 @@
 [
     {
-        "productId": "001",
-        "numParte": "73829",
-        "name": "Toggle Switch 2 Position",
-        "brand": "JLG",
-        "price": "44.99",
-        "image": "../assets/images/products/llantas.jpeg",
-        "category": "Switch"
+      "productId": "001",
+      "numParte": "4360336S",
+      "brand": "JLG ",
+      "name": "Toggle Switch 2 Position",
+      "price": "22.89",
+      "image": "assets/images/products/llantas.jpeg",
+      "category": "Switch"
     },
     {
-        "productId": "002",
-        "numParte": "73804",
-        "name": "Toggle Switch 3 Position",
-        "brand": "JLG",
-        "image": "../assets/images/products/llantas.jpeg",
-        "price": "44.99",
-        "category": "Joystick"
+      "productId": "002",
+      "numParte": "4360330S",
+      "brand": "JLG ",
+      "name": "Toggle Switch 3 Position",
+      "price": "25.56",
+      "category": "Switch"
     },
     {
-        "productId": "003",
-        "numParte": "05830",
-        "name": "Switch Toggle",
-        "brand": "JLG",
-        "image": "../assets/images/products/llantas.jpeg",
-        "price": "44.99",
-        "category": "Fusibles"
+      "productId": "003",
+      "numParte": "4360331S",
+      "brand": "JLG ",
+      "name": "Switch Toggle",
+      "price": "23.85",
+      "category": "Switch"
     },
     {
-        "productId": "004",
-        "numParte": "83034",
-        "name": "3Pos Dpdt Tablever Toggl Switch",
-        "brand": "JLG",
-        "image": "../assets/images/products/llantas.jpeg",
-        "price": "44.99",
-        "category": "Carbones"
+      "productId": "004",
+      "numParte": "4360314S",
+      "brand": "JLG ",
+      "name": "3Pos Dpdt Tablever Toggl Switch",
+      "price": "28.23",
+      "category": "Switch"
     },
     {
-        "productId": "005",
-        "numParte": "83274",
-        "name": "Toggle Switch",
-        "brand": "JLG",
-        "image": "../assets/images/products/llantas.jpeg",
-        "price": "44.99",
-        "category": "Carbones"
+      "productId": "005",
+      "numParte": "4360328S",
+      "brand": "JLG ",
+      "name": "Toggle Switch",
+      "price": "22.91",
+      "category": "Switch"
+    },
+    {
+      "productId": "006",
+      "numParte": "4360569",
+      "brand": "JLG ",
+      "name": "SWITCH, BEZEL CARLINGSWITCH",
+      "price": "17.15",
+      "category": "Switch"
+    },
+    {
+      "productId": "007",
+      "numParte": "4360482S",
+      "brand": "JLG ",
+      "name": "Switch Toggle",
+      "price": "32.04",
+      "category": "Switch"
+    },
+    {
+      "productId": "008",
+      "numParte": "4360473",
+      "brand": "JLG ",
+      "name": "SWITCH,KEY ON/OFF/ON (RECOIL)",
+      "price": "71.31",
+      "category": "Switch"
+    },
+    {
+      "productId": "009",
+      "numParte": "4360469",
+      "brand": "JLG ",
+      "name": "Keyswitch",
+      "price": "37.38",
+      "category": "Switch"
+    },
+    {
+      "productId": "010",
+      "numParte": "4360346",
+      "brand": "JLG ",
+      "name": "Keyswitch",
+      "price": "49.59",
+      "category": "Switch"
+    },
+    {
+      "productId": "011",
+      "numParte": "7020501",
+      "brand": "JLG ",
+      "name": "Push Button Switch",
+      "price": "21.10",
+      "category": "Switch"
+    },
+    {
+      "productId": "012",
+      "numParte": "4360387",
+      "brand": "JLG ",
+      "name": "Push Button Switch",
+      "price": "27.66",
+      "category": "Switch"
+    },
+    {
+      "productId": "013",
+      "numParte": "4360475",
+      "brand": "JLG ",
+      "name": "Emergency Stop Switch Kit",
+      "price": "27.50",
+      "category": "Switch"
+    },
+    {
+      "productId": "014",
+      "numParte": "4360613",
+      "brand": "JLG ",
+      "name": "Limit Switch",
+      "price": "54.00",
+      "category": "Switch"
+    },
+    {
+      "productId": "015",
+      "numParte": "4360548S",
+      "brand": "JLG ",
+      "name": "Limit Switch",
+      "price": "53.38",
+      "category": "Switch"
+    },
+    {
+      "productId": "016",
+      "numParte": "4360407",
+      "brand": "JLG ",
+      "name": "Rotational Controller",
+      "price": "122.93",
+      "category": "Partes de Joystick"
+    },
+    {
+      "productId": "017",
+      "numParte": "4360462",
+      "brand": "JLG ",
+      "name": "Speed Controller",
+      "price": "148.12",
+      "category": "Partes de Joystick"
+    },
+    {
+      "productId": "018",
+      "numParte": "7003751",
+      "brand": "JLG ",
+      "name": "Potentiometer 500 OHM",
+      "price": "52.02",
+      "category": "Partes de Joystick"
+    },
+    {
+      "productId": "019",
+      "numParte": "4360320",
+      "brand": "JLG ",
+      "name": "Switch Potentiometer",
+      "price": "51.16",
+      "category": "Partes de Joystick"
+    },
+    {
+      "productId": "020",
+      "numParte": "7019161",
+      "brand": "JLG ",
+      "name": "Boot and Sleeve",
+      "price": "51.57",
+      "category": "Partes de Joystick"
+    },
+    {
+      "productId": "021",
+      "numParte": "70002724",
+      "brand": "JLG ",
+      "name": "Boot and Sleeve",
+      "price": "56.51",
+      "category": "Partes de Joystick"
+    },
+    {
+      "productId": "022",
+      "numParte": "7022813",
+      "brand": "JLG ",
+      "name": "Joystick Boot and Bezel",
+      "price": "18.92",
+      "category": "Partes de Joystick"
+    },
+    {
+      "productId": "023",
+      "numParte": "7020526",
+      "brand": "JLG ",
+      "name": "Electrical Circuit Board Assembly",
+      "price": "332.97",
+      "category": "Partes de Joystick"
+    },
+    {
+      "productId": "024",
+      "numParte": "7019166",
+      "brand": "JLG ",
+      "name": "Switch Assembly",
+      "price": "87.04",
+      "category": "Partes de Joystick"
+    },
+    {
+      "productId": "025",
+      "numParte": "7003972",
+      "brand": "JLG ",
+      "name": "BOOT, SWITCH",
+      "price": "6.07",
+      "category": "Partes de Joystick"
+    },
+    {
+      "productId": "026",
+      "numParte": "1001118416",
+      "brand": "JLG ",
+      "name": "Joystick Controller",
+      "price": "253.40",
+      "category": "Joystick"
+    },
+    {
+      "productId": "027",
+      "numParte": "1001166539",
+      "brand": "JLG ",
+      "name": "Joystick Controller",
+      "price": "265.62",
+      "category": "Joystick"
+    },
+    {
+      "productId": "028",
+      "numParte": "1001178139",
+      "brand": "JLG ",
+      "name": "Joystick Controller",
+      "price": "234.99",
+      "category": "Joystick"
+    },
+    {
+      "productId": "029",
+      "numParte": "1001178132",
+      "brand": "JLG ",
+      "name": "Joystick Controller (Generico)",
+      "price": "166.58",
+      "category": "Joystick"
+    },
+    {
+      "productId": "030",
+      "numParte": "1600094",
+      "brand": "JLG ",
+      "name": "Joystick Controller (Generico)",
+      "price": "187.18",
+      "category": "Joystick"
+    },
+    {
+      "productId": "031",
+      "numParte": "1600141",
+      "brand": "JLG ",
+      "name": "Joystick Controller (Generico)",
+      "price": "160.95",
+      "category": "Joystick"
+    },
+    {
+      "productId": "032",
+      "numParte": "1600157",
+      "brand": "JLG ",
+      "name": "Joystick Controller (Generico)",
+      "price": "189.70",
+      "category": "Joystick"
+    },
+    {
+      "productId": "033",
+      "numParte": "1600175",
+      "brand": "JLG ",
+      "name": "Joystick Controller (Generico)",
+      "price": "208.37",
+      "category": "Joystick"
+    },
+    {
+      "productId": "034",
+      "numParte": "1600180",
+      "brand": "JLG ",
+      "name": "Joystick Controller (Generico)",
+      "price": "251.56",
+      "category": "Joystick"
+    },
+    {
+      "productId": "035",
+      "numParte": "1600242",
+      "brand": "JLG ",
+      "name": "Joystick Controller",
+      "price": "169.56",
+      "category": "Joystick"
+    },
+    {
+      "productId": "036",
+      "numParte": "1600273",
+      "brand": "JLG ",
+      "name": "Joystick Controller",
+      "price": "165.25",
+      "category": "Joystick"
+    },
+    {
+      "productId": "037",
+      "numParte": "1600273",
+      "brand": "JLG ",
+      "name": "Joystick Controller (Generico)",
+      "price": "185.00",
+      "category": "Joystick"
+    },
+    {
+      "productId": "038",
+      "numParte": "1600274",
+      "brand": "JLG ",
+      "name": "Joystick Controller (Generico)",
+      "price": "220.00",
+      "category": "Joystick"
+    },
+    {
+      "productId": "039",
+      "numParte": "1600276",
+      "brand": "JLG ",
+      "name": "Joystick Controller (Generico)",
+      "price": "214.00",
+      "category": "Joystick"
+    },
+    {
+      "productId": "040",
+      "numParte": "1600283",
+      "brand": "JLG ",
+      "name": "Joystick Controller (Generico)",
+      "price": "189.91",
+      "category": "Joystick"
+    },
+    {
+      "productId": "041",
+      "numParte": "1600284",
+      "brand": "JLG ",
+      "name": "Joystick Controller (Generico)",
+      "price": "125.00",
+      "category": "Joystick"
+    },
+    {
+      "productId": "042",
+      "numParte": "1600287",
+      "brand": "JLG ",
+      "name": "Joystick Controller (Generico)",
+      "price": "249.00",
+      "category": "Joystick"
+    },
+    {
+      "productId": "043",
+      "numParte": "1600288",
+      "brand": "JLG ",
+      "name": "Joystick Controller (Generico)",
+      "price": "481.22",
+      "category": "Joystick"
+    },
+    {
+      "productId": "044",
+      "numParte": "1600295",
+      "brand": "JLG ",
+      "name": "Joystick Controller",
+      "price": "391.01",
+      "category": "Joystick"
+    },
+    {
+      "productId": "045",
+      "numParte": "1600295",
+      "brand": "JLG ",
+      "name": "Joystick Controller (Generico)",
+      "price": "482.51",
+      "category": "Joystick"
+    },
+    {
+      "productId": "046",
+      "numParte": "1600301",
+      "brand": "JLG ",
+      "name": "Joystick Controller",
+      "price": "1045.00",
+      "category": "Joystick"
+    },
+    {
+      "productId": "047",
+      "numParte": "1600317",
+      "brand": "JLG ",
+      "name": "Joystick Controller (Generico)",
+      "price": "175.47",
+      "category": "Joystick"
+    },
+    {
+      "productId": "048",
+      "numParte": "1600318",
+      "brand": "JLG ",
+      "name": "Joystick Controller (Generico)",
+      "price": "152.90",
+      "category": "Joystick"
+    },
+    {
+      "productId": "049",
+      "numParte": "53073",
+      "brand": "GENIE",
+      "name": "Joystick Controller (Generico)",
+      "price": "297.75",
+      "category": "Joystick"
+    },
+    {
+      "productId": "050",
+      "numParte": "562576",
+      "brand": "SNORKEL",
+      "name": "Joystick Controller (Generico)",
+      "price": "255.87",
+      "category": "Joystick"
+    },
+    {
+      "productId": "051",
+      "numParte": "7011593",
+      "brand": "JLG ",
+      "name": "FUSE - 45 AMP",
+      "price": "16.31",
+      "category": "Fusibles"
+    },
+    {
+      "productId": "052",
+      "numParte": "2400045",
+      "brand": "JLG ",
+      "name": "80 AMP Fuse",
+      "price": "23.21",
+      "category": "Fusibles"
+    },
+    {
+      "productId": "053",
+      "numParte": "2400062",
+      "brand": "JLG ",
+      "name": "300 Amp Fuse",
+      "price": "21.08",
+      "category": "Fusibles"
+    },
+    {
+      "productId": "054",
+      "numParte": "2400041",
+      "brand": "JLG ",
+      "name": "Fuse 200 AMP",
+      "price": "19.62",
+      "category": "Fusibles"
+    },
+    {
+      "productId": "055",
+      "numParte": "2400044",
+      "brand": "JLG ",
+      "name": "Fuse Holder",
+      "price": "19.65",
+      "category": "Fusibles"
+    },
+    {
+      "productId": "056",
+      "numParte": "7016781",
+      "brand": "JLG ",
+      "name": "Brush Kit",
+      "price": "115.16",
+      "category": "Carbones"
+    },
+    {
+      "productId": "057",
+      "numParte": "7012547",
+      "brand": "JLG ",
+      "name": "BRUSH- ONE PC",
+      "price": "20.55",
+      "category": "Carbones"
+    },
+    {
+      "productId": "058",
+      "numParte": "7022200",
+      "brand": "JLG ",
+      "name": "KIT,BRUSH(LEESON)2",
+      "price": "143.15",
+      "category": "Carbones"
+    },
+    {
+      "productId": "059",
+      "numParte": "7021361",
+      "brand": "JLG ",
+      "name": "KIT, BRUSH",
+      "price": "139.50",
+      "category": "carbones"
+    },
+    {
+      "productId": "060",
+      "numParte": "2900811",
+      "brand": "JLG ",
+      "name": "KIT, BRUSH",
+      "price": "123.88",
+      "category": "carbones"
+    },
+    {
+      "productId": "061",
+      "numParte": "7013306",
+      "brand": "JLG ",
+      "name": "CONTACTOR",
+      "price": "201.20",
+      "category": "Contactor"
+    },
+    {
+      "productId": "062",
+      "numParte": "7022001",
+      "brand": "JLG ",
+      "name": "Contactor Main",
+      "price": "194.96",
+      "category": "Contactor"
+    },
+    {
+      "productId": "063",
+      "numParte": "7022002",
+      "brand": "JLG ",
+      "name": "Fwd/Rev 48V Contactor",
+      "price": "546.87",
+      "category": "Contactor"
+    },
+    {
+      "productId": "064",
+      "numParte": "4460481",
+      "brand": "JLG ",
+      "name": "Conn Plug Terminal",
+      "price": "39.61",
+      "category": "Terminal"
+    },
+    {
+      "productId": "065",
+      "numParte": "4460495",
+      "brand": "JLG ",
+      "name": "Receptacle Connector",
+      "price": "24.64",
+      "category": "Terminal"
+    },
+    {
+      "productId": "066",
+      "numParte": "4460473",
+      "brand": "JLG ",
+      "name": "Cable Clamp",
+      "price": "22.06",
+      "category": "Terminal"
+    },
+    {
+      "productId": "067",
+      "numParte": "4460502",
+      "brand": "JLG ",
+      "name": "Terminal Plug",
+      "price": "62.56",
+      "category": "Terminal"
+    },
+    {
+      "productId": "068",
+      "numParte": "4460462",
+      "brand": "JLG ",
+      "name": "Deutsch Plug Assembly HD30 Series 23 Pin",
+      "price": "25.70",
+      "category": "Terminal"
+    },
+    {
+      "productId": "069",
+      "numParte": "4460754",
+      "brand": "JLG ",
+      "name": "14 Position Plug Assembly",
+      "price": "86.56",
+      "category": "Terminal"
+    },
+    {
+      "productId": "070",
+      "numParte": "4460463",
+      "brand": "JLG ",
+      "name": "Deutsch 23 Pin Terminal Receptacle",
+      "price": "35.27",
+      "category": "Terminal"
+    },
+    {
+      "productId": "071",
+      "numParte": "4460752",
+      "brand": "JLG ",
+      "name": "CONNECTOR, MALE 14 PIN",
+      "price": "51.96",
+      "category": "Terminal"
+    },
+    {
+      "productId": "072",
+      "numParte": "4460510",
+      "brand": "JLG ",
+      "name": "TERMINAL, CONTACT EXTRACT TOOL",
+      "price": "8.51",
+      "category": "Terminal"
+    },
+    {
+      "productId": "073",
+      "numParte": "4460467",
+      "brand": "JLG ",
+      "name": "Deutsch 16 AWG Blue Contact Removal Tool",
+      "price": "8.15",
+      "category": "Terminal"
+    },
+    {
+      "productId": "074",
+      "numParte": "4460464",
+      "brand": "JLG ",
+      "name": "TERMINAL, PIN 16-20 GA",
+      "price": "6.70",
+      "category": "Terminal"
+    },
+    {
+      "productId": "075",
+      "numParte": "4460465",
+      "brand": "JLG ",
+      "name": "SOCKET",
+      "price": "6.83",
+      "category": "Terminal"
+    },
+    {
+      "productId": "076",
+      "numParte": "4460509",
+      "brand": "JLG ",
+      "name": "Socket",
+      "price": "7.02",
+      "category": "Terminal"
+    },
+    {
+      "productId": "077",
+      "numParte": "2901102",
+      "brand": "JLG ",
+      "name": "SEAL, KIT",
+      "price": "85.55",
+      "category": "Kit Seal"
+    },
+    {
+      "productId": "078",
+      "numParte": "2901147",
+      "brand": "JLG ",
+      "name": "SEAL, KIT",
+      "price": "22.21",
+      "category": "Kit Seal"
+    },
+    {
+      "productId": "079",
+      "numParte": "2901154",
+      "brand": "JLG ",
+      "name": "SEAL, KIT",
+      "price": "90.46",
+      "category": "Kit Seal"
+    },
+    {
+      "productId": "080",
+      "numParte": "2901170",
+      "brand": "JLG ",
+      "name": "SEAL, KIT",
+      "price": "102.91",
+      "category": "Kit Seal"
+    },
+    {
+      "productId": "081",
+      "numParte": "2901178",
+      "brand": "JLG ",
+      "name": "SEAL, KIT",
+      "price": "43.21",
+      "category": "Kit Seal"
+    },
+    {
+      "productId": "082",
+      "numParte": "2901242",
+      "brand": "JLG ",
+      "name": "SEAL, KIT",
+      "price": "67.02",
+      "category": "Kit Seal"
+    },
+    {
+      "productId": "083",
+      "numParte": "2901273",
+      "brand": "JLG ",
+      "name": "SEAL, KIT",
+      "price": "57.45",
+      "category": "Kit Seal"
+    },
+    {
+      "productId": "084",
+      "numParte": "2901284",
+      "brand": "JLG ",
+      "name": "SEAL, KIT",
+      "price": "133.16",
+      "category": "Kit Seal"
+    },
+    {
+      "productId": "085",
+      "numParte": "2901285",
+      "brand": "JLG ",
+      "name": "SEAL, KIT",
+      "price": "126.67",
+      "category": "Kit Seal"
+    },
+    {
+      "productId": "086",
+      "numParte": "2901301",
+      "brand": "JLG ",
+      "name": "SEAL, KIT",
+      "price": "84.87",
+      "category": "Kit Seal"
+    },
+    {
+      "productId": "087",
+      "numParte": "2901303",
+      "brand": "JLG ",
+      "name": "SEAL, KIT",
+      "price": "84.95",
+      "category": "Kit Seal"
+    },
+    {
+      "productId": "088",
+      "numParte": "2901321",
+      "brand": "JLG ",
+      "name": "SEAL, KIT",
+      "price": "44.03",
+      "category": "Kit Seal"
+    },
+    {
+      "productId": "089",
+      "numParte": "2901322",
+      "brand": "JLG ",
+      "name": "SEAL, KIT",
+      "price": "256.33",
+      "category": "Kit Seal"
+    },
+    {
+      "productId": "090",
+      "numParte": "2901496",
+      "brand": "JLG ",
+      "name": "SEAL, KIT",
+      "price": "75.66",
+      "category": "Kit Seal"
+    },
+    {
+      "productId": "091",
+      "numParte": "2901547",
+      "brand": "JLG ",
+      "name": "SEAL, KIT",
+      "price": "42.08",
+      "category": "Kit Seal"
+    },
+    {
+      "productId": "092",
+      "numParte": "2901548",
+      "brand": "JLG ",
+      "name": "SEAL, KIT",
+      "price": "31.95",
+      "category": "Kit Seal"
+    },
+    {
+      "productId": "093",
+      "numParte": "2901549",
+      "brand": "JLG ",
+      "name": "SEAL, KIT",
+      "price": "77.55",
+      "category": "Kit Seal"
+    },
+    {
+      "productId": "094",
+      "numParte": "2901804",
+      "brand": "JLG ",
+      "name": "SEAL, KIT",
+      "price": "108.80",
+      "category": "Kit Seal"
+    },
+    {
+      "productId": "095",
+      "numParte": "2901805",
+      "brand": "JLG ",
+      "name": "SEAL, KIT",
+      "price": "98.55",
+      "category": "Kit Seal"
+    },
+    {
+      "productId": "096",
+      "numParte": "2901806",
+      "brand": "JLG ",
+      "name": "SEAL, KIT",
+      "price": "121.05",
+      "category": "Kit Seal"
+    },
+    {
+      "productId": "097",
+      "numParte": "2901807",
+      "brand": "JLG ",
+      "name": "SEAL, KIT",
+      "price": "94.31",
+      "category": "Kit Seal"
+    },
+    {
+      "productId": "098",
+      "numParte": "2901810",
+      "brand": "JLG ",
+      "name": "SEAL, KIT",
+      "price": "109.20",
+      "category": "Kit Seal"
+    },
+    {
+      "productId": "099",
+      "numParte": "2901861",
+      "brand": "JLG ",
+      "name": "SEAL, KIT",
+      "price": "33.45",
+      "category": "Kit Seal"
+    },
+    {
+      "productId": "100",
+      "numParte": "2901875",
+      "brand": "JLG ",
+      "name": "SEAL, KIT",
+      "price": "37.33",
+      "category": "Kit Seal"
+    },
+    {
+      "productId": "101",
+      "numParte": "2901898",
+      "brand": "JLG ",
+      "name": "SEAL, KIT",
+      "price": "65.48",
+      "category": "Kit Seal"
+    },
+    {
+      "productId": "102",
+      "numParte": "2901903",
+      "brand": "JLG ",
+      "name": "SEAL, KIT",
+      "price": "77.03",
+      "category": "Kit Seal"
+    },
+    {
+      "productId": "103",
+      "numParte": "2902209",
+      "brand": "JLG ",
+      "name": "SEAL, KIT",
+      "price": "133.45",
+      "category": "Kit Seal"
+    },
+    {
+      "productId": "104",
+      "numParte": "2902266",
+      "brand": "JLG ",
+      "name": "SEAL, KIT",
+      "price": "39.87",
+      "category": "Kit Seal"
+    },
+    {
+      "productId": "105",
+      "numParte": "2902409",
+      "brand": "JLG ",
+      "name": "SEAL, KIT",
+      "price": "56.18",
+      "category": "Kit Seal"
+    },
+    {
+      "productId": "106",
+      "numParte": "2902419",
+      "brand": "JLG ",
+      "name": "SEAL, KIT",
+      "price": "77.88",
+      "category": "Kit Seal"
+    },
+    {
+      "productId": "107",
+      "numParte": "7017127",
+      "brand": "JLG ",
+      "name": "SEAL, KIT",
+      "price": "246.56",
+      "category": "Kit Seal"
+    },
+    {
+      "productId": "108",
+      "numParte": "7017165",
+      "brand": "JLG ",
+      "name": "SEAL, KIT",
+      "price": "268.93",
+      "category": "Kit Seal"
+    },
+    {
+      "productId": "109",
+      "numParte": "7017246",
+      "brand": "JLG ",
+      "name": "SEAL, KIT",
+      "price": "101.60",
+      "category": "Kit Seal"
+    },
+    {
+      "productId": "110",
+      "numParte": "7017290",
+      "brand": "JLG ",
+      "name": "SEAL, KIT",
+      "price": "54.48",
+      "category": "Kit Seal"
+    },
+    {
+      "productId": "111",
+      "numParte": "7020127",
+      "brand": "JLG ",
+      "name": "SEAL, KIT",
+      "price": "114.69",
+      "category": "Kit Seal"
+    },
+    {
+      "productId": "112",
+      "numParte": "70002517",
+      "brand": "JLG ",
+      "name": "SEAL, KIT",
+      "price": "70.95",
+      "category": "Kit Seal"
+    },
+    {
+      "productId": "113",
+      "numParte": "70002757",
+      "brand": "JLG ",
+      "name": "SEAL, KIT",
+      "price": "113.25",
+      "category": "Kit Seal"
+    },
+    {
+      "productId": "114",
+      "numParte": "70003814",
+      "brand": "JLG ",
+      "name": "SEAL, KIT",
+      "price": "112.66",
+      "category": "Kit Seal"
+    },
+    {
+      "productId": "115",
+      "numParte": "7001625",
+      "brand": "JLG ",
+      "name": "SEAL, KIT",
+      "price": "46.61",
+      "category": "Kit Seal"
+    },
+    {
+      "productId": "116",
+      "numParte": "2940088",
+      "brand": "JLG ",
+      "name": "Hood Latch",
+      "price": "33.87",
+      "category": "Latch"
+    },
+    {
+      "productId": "117",
+      "numParte": "2940095",
+      "brand": "JLG ",
+      "name": "LATCH,T HANDLE RUBBER",
+      "price": "21.61",
+      "category": "Latch"
+    },
+    {
+      "productId": "118",
+      "numParte": "2940098",
+      "brand": "JLG ",
+      "name": "LATCH .53 X 1.57 X 2.97",
+      "price": "19.98",
+      "category": "Latch"
+    },
+    {
+      "productId": "119",
+      "numParte": "2940133",
+      "brand": "JLG ",
+      "name": "LATCH, LOCKABLE UNDER-CENTER",
+      "price": "32.03",
+      "category": "Latch"
+    },
+    {
+      "productId": "120",
+      "numParte": "2940006",
+      "brand": "JLG ",
+      "name": "LATCH, DOOR",
+      "price": "18.26",
+      "category": "Latch"
+    },
+    {
+      "productId": "121",
+      "numParte": "2940074",
+      "brand": "JLG ",
+      "name": "LATCH",
+      "price": "21.00",
+      "category": "Latch"
+    },
+    {
+      "productId": "122",
+      "numParte": "4740158",
+      "brand": "JLG ",
+      "name": "WASHER, THRUST 2.011 X 3.00 X .25",
+      "price": "12.85",
+      "category": "Washer"
+    },
+    {
+      "productId": "123",
+      "numParte": "4740463",
+      "brand": "JLG ",
+      "name": "WASHER - SPEC THRUST 2X4X1/4",
+      "price": "20.71",
+      "category": "Washer"
+    },
+    {
+      "productId": "124",
+      "numParte": "4740256",
+      "brand": "JLG ",
+      "name": "WASHER, BRN2 4.000X2.062X.125",
+      "price": "11.40",
+      "category": "Washer"
+    },
+    {
+      "productId": "125",
+      "numParte": "440162",
+      "brand": "JLG ",
+      "name": "WASHER, THRUST 12X2.37X1.26",
+      "price": "9.60",
+      "category": "Washer"
+    },
+    {
+      "productId": "126",
+      "numParte": "3841143",
+      "brand": "JLG ",
+      "name": "ROD, KEEPER SHAFT",
+      "price": "14.60",
+      "category": "Rod"
+    },
+    {
+      "productId": "127",
+      "numParte": "3841203",
+      "brand": "JLG ",
+      "name": "ROD, KEEPER",
+      "price": "24.65",
+      "category": "Rod"
+    },
+    {
+      "productId": "128",
+      "numParte": "3841367",
+      "brand": "JLG ",
+      "name": "ROD, END SPHER W/ZERK",
+      "price": "66.05",
+      "category": "Rod"
+    },
+    {
+      "productId": "129",
+      "numParte": "3841146",
+      "brand": "JLG ",
+      "name": "ROD, END",
+      "price": "30.52",
+      "category": "Rod"
+    },
+    {
+      "productId": "130",
+      "numParte": "3841517S",
+      "brand": "JLG ",
+      "name": "ROD, END SELF LUBRICATI",
+      "price": "28.13",
+      "category": "Rod"
+    },
+    {
+      "productId": "131",
+      "numParte": "961951",
+      "brand": "JLG ",
+      "name": "BUSHING, COMPOSITE 1 1/4 IN",
+      "price": "10.27",
+      "category": "Bushing"
+    },
+    {
+      "productId": "132",
+      "numParte": "962356",
+      "brand": "JLG ",
+      "name": "BUSHING, 1.00\" PIN SIZE",
+      "price": "10.15",
+      "category": "Bushing"
+    },
+    {
+      "productId": "133",
+      "numParte": "962140",
+      "brand": "JLG ",
+      "name": "BUSHING, COMPOSITE 3/4\"",
+      "price": "30.27",
+      "category": "Bushing"
+    },
+    {
+      "productId": "134",
+      "numParte": "961947",
+      "brand": "JLG ",
+      "name": "BUSHING COMPOSITE 1\"",
+      "price": "10.18",
+      "category": "Bushing"
+    },
+    {
+      "productId": "135",
+      "numParte": "961749",
+      "brand": "JLG ",
+      "name": "BUSHING, .752X0.504X0.375 OIC",
+      "price": "8.19",
+      "category": "Bushing"
+    },
+    {
+      "productId": "136",
+      "numParte": "962131",
+      "brand": "JLG ",
+      "name": "BUSHING, COMPOSITE 2 1/4\"",
+      "price": "31.85",
+      "category": "Bushing"
+    },
+    {
+      "productId": "137",
+      "numParte": "1001107527",
+      "brand": "JLG ",
+      "name": "DECAL STOP",
+      "price": "17.02",
+      "category": "Decal"
+    },
+    {
+      "productId": "138",
+      "numParte": "3252766",
+      "brand": "JLG ",
+      "name": "NAMEPLATE, PLATFORM BOX",
+      "price": "33.99",
+      "category": "Decal"
+    },
+    {
+      "productId": "139",
+      "numParte": "1702565",
+      "brand": "JLG ",
+      "name": "DECAL, (DRIVE STEER)",
+      "price": "7.75",
+      "category": "Decal"
+    },
+    {
+      "productId": "140",
+      "numParte": "1702566",
+      "brand": "JLG ",
+      "name": "DECAL, (DRIVE STEER)",
+      "price": "7.75",
+      "category": "Decal"
+    },
+    {
+      "productId": "141",
+      "numParte": "1001119566",
+      "brand": "JLG ",
+      "name": "KIT (SERVICE) PLATFORM CONSOLE",
+      "price": "55.16",
+      "category": "Decal"
+    },
+    {
+      "productId": "142",
+      "numParte": "1704192",
+      "brand": "JLG ",
+      "name": "DECAL , STOP",
+      "price": "10.05",
+      "category": "Decal"
+    },
+    {
+      "productId": "143",
+      "numParte": "1703689",
+      "brand": "JLG ",
+      "name": "DECAL, HORN, DRV, SPD, LEVEL ",
+      "price": "10.66",
+      "category": "Decal"
+    },
+    {
+      "productId": "144",
+      "numParte": "1704253",
+      "brand": "JLG ",
+      "name": "DECAL, LEGEND",
+      "price": "10.70",
+      "category": "Decal"
+    },
+    {
+      "productId": "145",
+      "numParte": "1001107527",
+      "brand": "JLG ",
+      "name": "DECAL , STOP",
+      "price": "17.02",
+      "category": "Decal"
+    },
+    {
+      "productId": "146",
+      "numParte": "1702564",
+      "brand": "JLG ",
+      "name": "DECAL , STOP",
+      "price": "9.34",
+      "category": "Decal"
+    },
+    {
+      "productId": "147",
+      "numParte": "1705212",
+      "brand": "JLG ",
+      "name": "DECAL, LIGHT DISPLAY",
+      "price": "15.80",
+      "category": "Decal"
+    },
+    {
+      "productId": "148",
+      "numParte": "1704240",
+      "brand": "JLG ",
+      "name": "DECAL, HORN AND POSITRACK",
+      "price": "9.67",
+      "category": "Decal"
+    },
+    {
+      "productId": "149",
+      "numParte": "1001128737",
+      "brand": "JLG ",
+      "name": "BATTERY CHARGER 24 V",
+      "price": "552.11",
+      "category": "Battery Charger"
+    },
+    {
+      "productId": "150",
+      "numParte": "1001103105",
+      "brand": "JLG ",
+      "name": "BATTERY CHARGER 48 V",
+      "price": "748.01",
+      "category": "Battery Charger"
+    },
+    {
+      "productId": "151",
+      "numParte": "400124",
+      "brand": "JLG ",
+      "name": "BATTERY CHARGER 48 V",
+      "price": "809.18",
+      "category": "Battery Charger"
     }
 ]

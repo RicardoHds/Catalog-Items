@@ -1,105 +1,109 @@
-<div class="clearfix">
-    <div class="col-md-12">
-        <div class="col-md-12">
-            <div class="jumbotron">
-                <!--<span>Filtered by:</span>
-                <span><input type="text" [(ngModel)]='listFilter' placeholder="Codigo"></span>
-                <h3>Filtered by: {{listFilter}}</h3>-->
-            </div>
-        </div>
-    </div>
-    <div class="col-md-12">
-        <div class="col-md-2">
+<div class="col-md-12">
+    <div class="col-md-2">
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="panel-title">Marcas</h3>
-            </div>
-            <div class="panel-body">
-                <button style="margin: 5px; outline: 0" 
-                    *ngFor="let marca of marcas" 
-                    class="btn btn-primary" 
-                    (click)="applyFilter(marca.name)"
-                    (click)="onSelectM(marca.name)"
-                    [class.active]="selectMarca === marca.name">
-                    {{ marca.name }}
-                </button>
-            </div>
-        </div>
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h3 class="panel-title">Categorias</h3>
+                <h3 class="panel-title">Marca</h3>
             </div>
             <div class="panel-body">
                 <select class="form-control"
-                        name="primaryCategory"
-                        #primaryCategory
-                        (change)=applyFilter(primaryCategory.value)
-                        (change)="onSelectC(primaryCategory.value)">
-                    <option value="" disabled>Select...</option>
+                    name="allMarcas"
+                    #allMarcas
+                    (change)=applyFilter(allMarcas.value)
+                    (change)="onSelectM(allMarcas.value)">
+                    <option value="ALL" [selected]="allNoneMarca === true">Todas...</option>
+                    <option 
+                        *ngFor="let marca of marcas"
+                        [ngValue]="marca.name">
+                    {{ marca.name }}</option>
+                </select>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Categoria</h3>
+            </div>
+            <div class="panel-body">
+                <select class="form-control"
+                        name="allCategory"
+                        #allCategory
+                        (change)=applyFilter(allCategory.value)
+                        (change)="onSelectC(allCategory.value)">
+                    <option value="ALL" [selected]="allNoneCateg === true">Todas...</option>
                     <option 
                         *ngFor="let categoria of categorias"
                         [ngValue]="categoria.name">
                     {{ categoria.name }}</option>
                 </select>
-                <!-- <button style="margin: 5px; outline: 0" 
-                    *ngFor="let categoria of categorias"
-                    class="btn btn-primary" 
-                    (click)="applyFilter(categoria.name)"
-                    (click)="onSelectC(categoria.name)"
-                    [class.active]="selectCateg === categoria.name">
-                    {{ categoria.name }}
-                </button> -->
             </div>
-        </div>
-</div>
-
-    <div class="col-md-10">
-    <div class="panel panel-primary">
-        <div class="panel-heading text-center">
-            <button style="outline: 0"
-                class="btn btn-danger pull-left" 
-                (click)="applyFilter('ALL')"
-                (click)="onSelectAll()"
-                [class.active]="selectAll === 'Todo'">
-                Ver Todo
-            </button>
-            <span class="pull-right">
-                <input 
-                [type]="text" 
-                [(ngModel)]='listFilter' 
-                placeholder="Nº Parte ó Producto" 
-                class="form-control">
-            </span>
-            <h3 class="panel-title">Filtro:<br /> {{ titleShow  }}</h3>
-            
-        </div>
-        <div class="panel-body">
-            <div class="col-sm-6 col-md-3" *ngFor="let product of filterproducts | paginate: { itemsPerPage: 4, currentPage: p}">
-                <div class="thumbnail">
-                    <img src="{{ product.image }}" alt="..." style="width: 150px; height: 100px;">
-                    <div class="caption">
-                        <h5>{{ product.name }}</h5>
-                        <p>
-                            Nº Parte: {{ product.numParte }}
-                            <br />Fabricante: {{ product.brand }}
-                            <br />Precio: {{ product.price | currency }}
-                            <br />Catergoria: {{ product.category }}
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div  *ngIf='filterproducts?.length === 0'>No exist the item {{ titleShow  }}</div>
-        </div>
-        <div class="text-center">
-            <pagination-controls 
-                (pageChange)="p = $event"
-                previousLabel=""
-                nextLabel=""
-                
-            >
-            </pagination-controls>
         </div>
     </div>
-</div>
-</div>
+
+    <div class="col-md-10">
+        <div class="colmd-12 panel panel-default">
+            <div class="panel-heading text-center">
+                <button
+                    class="btn btn-danger pull-left no-outline" 
+                    (click)="applyFilter('ALL')"
+                    (click)="onSelectAll()"
+                    [class.active]="selectAll === 'Todo'">
+                    Ver Todo
+                </button>
+                <div class="pull-right input-group max-230">
+                    <input
+                    type="text" 
+                    [(ngModel)]='listFilter' 
+                    placeholder="Nº Parte ó Producto" 
+                    class="form-control">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default no-outline" (click)="clearInput()">
+                        <i class="glyphicon glyphicon-remove" 
+                        [class.color-black]="listFilter"
+                        [class.color-gray]="!listFilter"
+                        >
+                        </i>
+                        </button>
+                    </span>
+                    </div>
+                <h3 class="panel-title">Filtro:<br /> {{ titleShow  }}</h3>
+            </div>
+
+            <div class="panel-body">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Producto</th>
+                            <th>Nº Parte</th>
+                            <th>Fabricante</th>
+                            <th>Precio</th>
+                            <th>Categoria</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let product of filterproducts | paginate: { itemsPerPage: 10, currentPage: p}">
+                            <td><img 
+                                src="assets/images/products/{{ product.numParte }}.png" 
+                                style="width: 70px;"
+                                [alt]=product.name>
+                            </td>
+                            <td><a [routerLink]="['/productos', +product.productId]">{{ product.name }}</a></td>
+                            <td>{{ product.numParte }}</td>
+                            <td>{{ product.brand }}</td>
+                            <td>{{ product.price | currency }}</td>
+                            <td>{{ product.category }}</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div  *ngIf='filterproducts?.length === 0'>No exist the item {{ titleShow  }}</div>
+            </div>
+            <div class="text-center">
+                <pagination-controls 
+                    (pageChange)="p = $event"
+                    previousLabel=""
+                    nextLabel="">
+                </pagination-controls>
+            </div>
+        </div>
+    </div>
 </div>

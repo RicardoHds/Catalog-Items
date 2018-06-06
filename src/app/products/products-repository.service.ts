@@ -21,6 +21,11 @@ export class ProductRepositoryService {
         catchError(this.handleError), );
     }
 
+    getProduct(id: number): Observable<IProduct> {
+        return this.getProducts().pipe(
+            map((products: IProduct[]) => products.find(p => +p.productId === id)));
+    }
+
     private handleError(err) {
         let errorMessage = '';
         if (err.error instanceof Error) {

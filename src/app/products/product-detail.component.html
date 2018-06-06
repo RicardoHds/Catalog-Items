@@ -1,0 +1,49 @@
+<div class="col-md-12">
+    <div class="col-md-12">
+    <div class='panel panel-primary' *ngIf='product'>
+        <div class='panel-heading'>
+            {{pageTitle + ': ' + product.name}}
+        </div>
+
+        <div class='panel-body'>
+            <div class='row'>
+                <div class='col-md-6'>
+                    <div class='row'>
+                        <div class='col-md-3'>Producto:</div>
+                        <div class='col-md-6'>{{product.name}}</div>
+                    </div>
+                    <div class='row'>
+                        <div class='col-md-3'>Nº de Parte:</div>
+                        <div class='col-md-6'>{{product.numParte | lowercase}}</div>
+                    </div>
+                    <div class='row'>
+                        <div class='col-md-3'>Fabricante:</div>
+                        <div class='col-md-6'>{{product.brand}}</div>
+                    </div>
+                    <div class='row'>
+                        <div class='col-md-3'>Precio:</div>
+                        <div class='col-md-6'>{{product.price| currency}}</div>
+                    </div>
+                    <div class='row'>
+                        <div class='col-md-3'>Categoria:</div>
+                        <div class='col-md-6'>{{product.category}}</div>
+                    </div>
+                </div>
+                <div class='col-md-6'>
+                    <img class='center-block img-responsive' 
+                        [style.width.px]='200' 
+                        [style.margin.px]='2' 
+                        src="assets/images/products/{{ product.numParte }}.png"
+                        [title]='product.name'>
+                </div>
+            </div>
+        </div>
+
+        <div class='panel-footer'>
+            <a class='btn btn-default' (click)='onBack()' style='width:100px'>
+                <i class='glyphicon glyphicon-chevron-left'></i> Regresar
+            </a>
+        </div>
+    </div>
+    </div>
+</div>
