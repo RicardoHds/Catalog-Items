@@ -3,10 +3,16 @@ import { ProductRepositoryService } from './products-repository.service';
 import { FilterProducts } from './filter-products.service';
 import { Observable, Subscriber } from 'rxjs';
 import { IProduct } from './products';
-import { MarcaRepositoryService } from '../marcas/marcas-repository.service';
-import { IMarca } from '../marcas/marcas';
-import { CategoriaRepositoryService } from '../categorias/categorias-repository.service';
-import { ICategoria } from '../categorias/categorias';
+import { AnchoRepositoryService } from '../ancho/ancho-repository.service';
+import { IAncho } from '../ancho/ancho';
+import { CapacidadRepositoryService } from '../capacidad/capacidad-repository.service';
+import { ICapacidad } from '../capacidad/capacidad';
+import { CombustibleRepositoryService } from '../combustible/combustible-repository.service';
+import { ICombustible } from '../combustible/combustible';
+import { EstibaRepositoryService } from '../estiba/estiba-repository.service';
+import { IEstiba } from '../estiba/estiba';
+import { UsoRepositoryService } from '../uso/uso-repository.service';
+import { IUso } from '../uso/uso';
 import { NgForm } from '@angular/forms';
 
 @Component({
@@ -16,20 +22,27 @@ import { NgForm } from '@angular/forms';
 })
 export class ProductsComponent implements OnInit {
     filterproducts: any[];
-    filterproductsmarca: any[];
-    filterproductscateg: any[];
-    selectMarca: string = '';
-    selectCateg: string = '';
+    filterproductsuso: any[];
+    filterproductscapacidad: any[];
+    filterproductscombustible: any[];
+    selectUso: string = '';
+    selectCapacidad: string = '';
+    selectCombustible: string = '';
     selectAll: string = '';
     titleShow: string = 'Todos los Productos';
     errorMessage: string;
-    allNoneMarca = false;
-    allNoneCateg = false;
+    allNoneUso = false;
+    allNoneCapacidad = false;
+    allNoneCombustible = false;
 
     filteredProducts: any[];
     products: IProduct[] = [];
-    marcas: IMarca[] = [];
-    categorias: ICategoria[] = [];
+    ancho: IAncho[] = [];
+    capacidad: ICapacidad[] = [];
+    combustible: ICombustible[] = [];
+    estiba: IEstiba[] = [];
+    uso: IUso[] = [];
+    
 
     _listFilter: string;
 
@@ -40,8 +53,9 @@ export class ProductsComponent implements OnInit {
     }
 
     set listFilter(value: string) {
-        this.allNoneCateg = true;
-        this.allNoneMarca = true;
+        this.allNoneUso = true;
+        this.allNoneCapacidad = true;
+        this.allNoneCombustible = true;
         this._listFilter = value;
         if (!this.listFilter) {
             this.titleShow = 'Todos los Productos';
@@ -56,54 +70,77 @@ export class ProductsComponent implements OnInit {
         const typeInput = isNaN(filteredBy);
         if (typeInput === true) {
             const byName = this.products.filter((product: IProduct) =>
-            product.name.toLocaleLowerCase().indexOf(filteredBy) !== -1);
+            product.DESCRIPCION.toLocaleLowerCase().indexOf(filteredBy) !== -1);
             return byName;
         } else {
             const byId = this.products.filter((product: IProduct) =>
-            product.numParte.toLocaleString().indexOf(filteredBy) !== -1);
+            product.MODELO.indexOf(filteredBy) !== -1);
             return byId;
         }
     }
 
-    onSelectM(marca) {
+    onSelectUso(uso) {
         // this.listFilter = '';
-        this.allNoneMarca = false;
-        this.allNoneCateg = true;
-        this.selectMarca = marca;
-        if (this.selectMarca === 'ALL') {
+        this.allNoneCapacidad = false;
+        this.allNoneUso = false;
+        this.allNoneCombustible = false;
+        this.selectUso = uso;
+        if (this.selectUso === 'ALL') {
             this.titleShow = 'Todos los Productos';
         } else {
-            this.titleShow = this.selectMarca;
+            this.titleShow = this.selectUso;
         }
-        if (this.selectMarca) {
-            this.selectCateg = '';
+        if (this.selectUso) {
+            this.selectCapacidad = '';
+            this.selectCombustible = '';
             this.selectAll = '';
         }
     }
-    onSelectC(categoria) {
+    onSelectCapacidad(capacidad) {
         // this.listFilter = '';
-        this.allNoneCateg = false;
-        this.allNoneMarca = true;
-        this.selectCateg = categoria;
-        if (this.selectCateg === 'ALL') {
+        this.allNoneCapacidad = false;
+        this.allNoneUso = false;
+        this.allNoneCombustible = false;
+        this.selectCapacidad = capacidad;
+        if (this.selectCapacidad === 'ALL') {
             this.titleShow = 'Todos los Productos';
         } else {
-            this.titleShow = this.selectCateg;
+            this.titleShow = this.selectCapacidad;
         }
-        if (this.selectCateg) {
-            this.selectMarca = '';
+        if (this.selectCapacidad) {
+            this.selectUso = '';
+            this.selectCombustible = '';
+            this.selectAll = '';
+        }
+    }
+    onSelectCombustible(combustible) {
+        // this.listFilter = '';
+        this.allNoneCapacidad = false;
+        this.allNoneUso = false;
+        this.allNoneCombustible = false;
+        this.selectCombustible = combustible;
+        if (this.selectCombustible === 'ALL') {
+            this.titleShow = 'Todos los Productos';
+        } else {
+            this.titleShow = this.selectCombustible;
+        }
+        if (this.selectCombustible) {
+            this.selectUso = '';
+            this.selectCapacidad = '';
             this.selectAll = '';
         }
     }
     onSelectAll() {
         // this.listFilter = '';
-        this.allNoneMarca = true;
-        this.allNoneCateg = true;
+        this.allNoneCapacidad = true;
+        this.allNoneUso = true;
+        this.allNoneCombustible = true;
         this.selectAll = 'Todos los Productos';
         this.titleShow = this.selectAll;
         if (this.selectAll) {
-            this.selectMarca = '';
-            this.selectCateg = '';
+            this.selectUso = '';
+            this.selectCapacidad = '';
+            this.selectCombustible = '';
         }
     }
     clearInput() {
@@ -114,8 +151,11 @@ export class ProductsComponent implements OnInit {
 
     constructor(
         private productRepository: ProductRepositoryService,
-        private marcaRepository: MarcaRepositoryService,
-        private categoriaRepository: CategoriaRepositoryService,
+        private anchoRepository: AnchoRepositoryService,
+        private capacidadRepository: CapacidadRepositoryService,
+        private combustibleRepository: CombustibleRepositoryService,
+        private estibaRepository: EstibaRepositoryService,
+        private usoRepository: UsoRepositoryService,
         private filterRepository: FilterProducts
     ) {}
 
@@ -129,15 +169,21 @@ export class ProductsComponent implements OnInit {
             },
                 error => this.errorMessage = <any>error);
 
-        this.marcaRepository.getMarcas()
-            .subscribe(marcas => {
-                this.marcas = marcas;
+        this.capacidadRepository.getCapacidad()
+            .subscribe(capacidad => {
+                this.capacidad = capacidad;
             },
                 error => this.errorMessage = <any>error);
 
-        this.categoriaRepository.getCategorias()
-            .subscribe(categorias => {
-                this.categorias = categorias;
+        this.combustibleRepository.getCombustible()
+            .subscribe(combustible => {
+                this.combustible = combustible;
+            },
+                error => this.errorMessage = <any>error);
+
+        this.usoRepository.getUso()
+            .subscribe(uso => {
+                this.uso = uso;
             },
                 error => this.errorMessage = <any>error);
 
@@ -145,7 +191,7 @@ export class ProductsComponent implements OnInit {
     }
 
     applyFilter(filter) {
-        this.filterproducts = this.filterRepository.filterProductsMarca(filter, this.products);
+        this.filterproducts = this.filterRepository.filterProducts(filter, this.products);
     }
 
 }

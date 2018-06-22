@@ -14,7 +14,7 @@ export class ProductDetailComponent implements OnInit {
     pageTitle: string = 'Detalle del Producto';
     errorMessage: string;
     product: IProduct;
-    param: number;
+    param: string;
 
 
     constructor(private _route: ActivatedRoute,
@@ -25,12 +25,12 @@ export class ProductDetailComponent implements OnInit {
     ngOnInit() {
         const param = this._route.snapshot.params.id;
         if (param) {
-            const id = +param;
+            const id = param;
             this.getProduct(id);
         }
     }
 
-    getProduct(id: number) {
+    getProduct(id: string) {
         this._productService.getProduct(id).subscribe(
         product => this.product = product,
         error => this.errorMessage = <any>error);

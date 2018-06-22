@@ -7,8 +7,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { ProductsComponent } from './products/products.component';
 import { ProductDetailComponent } from './products/product-detail.component';
 import { ProductRepositoryService } from './products/products-repository.service';
-import { MarcaRepositoryService } from './marcas/marcas-repository.service';
-import { CategoriaRepositoryService } from './categorias/categorias-repository.service';
+import { AnchoRepositoryService } from './ancho/ancho-repository.service';
+import { CapacidadRepositoryService } from './capacidad/capacidad-repository.service';
+import { CombustibleRepositoryService } from './combustible/combustible-repository.service';
+import { EstibaRepositoryService } from './estiba/estiba-repository.service';
+import { UsoRepositoryService } from './uso/uso-repository.service';
 import { FilterProducts } from './products/filter-products.service';
 import { FormsModule } from '@angular/forms';
 import { NgxPaginationModule } from 'ngx-pagination';
@@ -30,8 +33,11 @@ import { ProductGuardService } from './products/product-guard.service';
     ],
   providers: [
     ProductRepositoryService,
-    MarcaRepositoryService,
-    CategoriaRepositoryService,
+    AnchoRepositoryService,
+    CapacidadRepositoryService,
+    CombustibleRepositoryService,
+    EstibaRepositoryService,
+    UsoRepositoryService,
     FilterProducts,
     ProductGuardService
     ],

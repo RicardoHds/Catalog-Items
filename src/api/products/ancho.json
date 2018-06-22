@@ -1,0 +1,21 @@
+[
+	{
+        "anchoId": "001",
+        "name": "Menor a 10 pies"
+    },
+    {
+        "anchoId": "002",
+        "name": "De 10 a 11 pies"
+    }
+    {
+        "anchoId": "003",
+        "name": "De 12 a 13 pies"
+    },
+    {
+        "anchoId": "004",
+        "name": "De 14 a 15 pies"
+    }{
+        "anchoId": "005",
+        "name": "Mayor a 15 pies"
+    }
+]

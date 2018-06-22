@@ -1,9 +1,9 @@
 export interface IProduct {
-    productId: number;
-    numParte: number;
-    name: string;
-    brand: string;
-    price: string;
-    image: string;
-    category: string;
+    DESCRIPCION: string;
+    MODELO: string;
+    ESTIBA: number;
+    USO: string;
+    CAPACIDAD: string;
+    COMBUSTIBLE: string;
+    ANCHO_DE_PASILLO: string;
 }

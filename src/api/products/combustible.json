@@ -1,0 +1,18 @@
+[
+    {
+        "combustibleId": "GAS LP",
+        "name": "Gas LP"
+    },
+    {
+        "combustibleId": "DIESEL",
+        "name": "Diesel"
+    },
+    {
+        "combustibleId": "ELECTRICO",
+        "name": "Eléctrico"
+    },
+    {
+        "combustibleId": "GASOLINA/GAS LP",
+        "name": "Gas y Gasolina"
+    }
+]

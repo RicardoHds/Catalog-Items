@@ -2,37 +2,60 @@
     <div class="col-md-2">
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="panel-title">Marca</h3>
+                <h3 class="panel-title">Capacidad</h3>
             </div>
             <div class="panel-body">
                 <select class="form-control"
-                    name="allMarcas"
-                    #allMarcas
-                    (change)=applyFilter(allMarcas.value)
-                    (change)="onSelectM(allMarcas.value)">
-                    <option value="ALL" [selected]="allNoneMarca === true">Todas...</option>
+                    name="allCapacidades"
+                    #allCapacidades
+                    (change)=applyFilter(allCapacidades.value)
+                    (change)="onSelectCapacidad(allCapacidades.value)">
+                    <option value="ALL" [selected]="allNoneCapacidad === true">Todas...</option>
                     <option 
-                        *ngFor="let marca of marcas"
-                        [ngValue]="marca.name">
-                    {{ marca.name }}</option>
+                        *ngFor="let c of capacidad"
+                        [ngValue]="c.capacidadId"
+                        [value]="c.capacidadId">
+                    {{ c.name }}</option>
                 </select>
             </div>
         </div>
+    
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="panel-title">Categoria</h3>
+                <h3 class="panel-title">Uso</h3>
             </div>
             <div class="panel-body">
                 <select class="form-control"
-                        name="allCategory"
-                        #allCategory
-                        (change)=applyFilter(allCategory.value)
-                        (change)="onSelectC(allCategory.value)">
-                    <option value="ALL" [selected]="allNoneCateg === true">Todas...</option>
+                    name="allCapacidades"
+                    #allUsos
+                    (change)=applyFilter(allUsos.value)
+                    (change)="onSelectUso(allUsos.value)">
+                    <option value="ALL" [selected]="allNoneUso === true">Todos...</option>
                     <option 
-                        *ngFor="let categoria of categorias"
-                        [ngValue]="categoria.name">
-                    {{ categoria.name }}</option>
+                        *ngFor="let u of uso"
+                        [ngValue]="u.usoId"
+                        [value]="u.usoId">
+                    {{ u.name }}</option>
+                </select>
+            </div>
+        </div>
+    
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Combustible</h3>
+            </div>
+            <div class="panel-body">
+                <select class="form-control"
+                    name="allCapacidades"
+                    #allCombustibles
+                    (change)=applyFilter(allCombustibles.value)
+                    (change)="onSelectCombustible(allCombustibles.value)">
+                    <option value="ALL" [selected]="allNoneCombustible === true">Todos...</option>
+                    <option 
+                        *ngFor="let com of combustible"
+                        [ngValue]="com.combustibleId"
+                        [value]="com.combustibleId">
+                    {{ com.name }}</option>
                 </select>
             </div>
         </div>
@@ -52,7 +75,7 @@
                     <input
                     type="text" 
                     [(ngModel)]='listFilter' 
-                    placeholder="Nº Parte ó Producto" 
+                    placeholder="Busqueda" 
                     class="form-control">
                     <span class="input-group-btn">
                         <button class="btn btn-default no-outline" (click)="clearInput()">
@@ -71,31 +94,29 @@
                 <table class="table">
                     <thead>
                         <tr>
-                            <th></th>
                             <th>Producto</th>
-                            <th>Nº Parte</th>
-                            <th>Fabricante</th>
-                            <th>Precio</th>
-                            <th>Categoria</th>
+                            <th>Modelo</th>
+                            <th>Estiba</th>
+                            <th>Uso</th>
+                            <th>Capacidad (LBS)</th>
+                            <th>Combustible</th>
+                            <th>Ancho de pasillo</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr *ngFor="let product of filterproducts | paginate: { itemsPerPage: 10, currentPage: p}">
-                            <td><img 
-                                src="assets/images/products/{{ product.numParte }}.png" 
-                                style="width: 70px;"
-                                [alt]=product.name>
-                            </td>
-                            <td><a [routerLink]="['/productos', +product.productId]">{{ product.name }}</a></td>
-                            <td>{{ product.numParte }}</td>
-                            <td>{{ product.brand }}</td>
-                            <td>{{ product.price | currency }}</td>
-                            <td>{{ product.category }}</td>
+                            <td><a [routerLink]="['/productos', product.MODELO]">{{ product.DESCRIPCION }}</a></td>
+                            <td>{{ product.MODELO }}</td>
+                            <td>{{ product.ESTIBA }}</td>
+                            <td>{{ product.USO }}</td>
+                            <td>{{ product.CAPACIDAD }}</td>
+                            <td>{{ product.COMBUSTIBLE }}</td>
+                            <td>{{ product.ANCHO_DE_PASILLO }}</td>
                         </tr>
                     </tbody>
                 </table>
 
-                <div  *ngIf='filterproducts?.length === 0'>No exist the item {{ titleShow  }}</div>
+                <div  *ngIf='filterproducts?.length === 0'>No Existe Coincidencia con {{ titleShow  }}</div>
             </div>
             <div class="text-center">
                 <pagination-controls 

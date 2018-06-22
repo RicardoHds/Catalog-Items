@@ -7,9 +7,9 @@ export class ProductGuardService implements CanActivate {
   constructor(private _router: Router) { }
 
   canActivate(route: ActivatedRouteSnapshot): boolean {
-    const id = +route.params.id;
+    const id = route.params.id;
     // const id = +route.url[1].path;
-    if (isNaN(id) || id < 1) {
+    if (id == null) {
       alert('Invalid product Id');
       this._router.navigate(['/product']);
       return false;

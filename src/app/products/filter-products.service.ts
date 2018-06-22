@@ -5,7 +5,7 @@ import { ProductRepositoryService } from './products-repository.service';
 export class FilterProducts {
     constructor() {}
 
-    filterProductsMarca(filter, products) {
+    filterProducts(filter, products) {
         if (!filter) {
             return products;
         }
@@ -13,7 +13,7 @@ export class FilterProducts {
         if (filter === 'ALL') {
             return products;
         }
-            return products.filter(c => c.brand.startsWith(filter) || c.category.startsWith(filter));
+            return products.filter(c => c.USO.startsWith(filter) || c.CAPACIDAD.startsWith(filter) || c.COMBUSTIBLE.startsWith(filter));
     }
 
     /*filterProductsCateg(filter, products) {

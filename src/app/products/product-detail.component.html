@@ -2,7 +2,7 @@
     <div class="col-md-12">
     <div class='panel panel-primary' *ngIf='product'>
         <div class='panel-heading'>
-            {{pageTitle + ': ' + product.name}}
+            {{pageTitle + ': ' + product.DESCRIPCION}}
         </div>
 
         <div class='panel-body'>
@@ -10,31 +10,32 @@
                 <div class='col-md-6'>
                     <div class='row'>
                         <div class='col-md-3'>Producto:</div>
-                        <div class='col-md-6'>{{product.name}}</div>
+                        <div class='col-md-6'>{{product.DESCRIPCION}}</div>
                     </div>
                     <div class='row'>
-                        <div class='col-md-3'>Nº de Parte:</div>
-                        <div class='col-md-6'>{{product.numParte | lowercase}}</div>
+                        <div class='col-md-3'>Modelo:</div>
+                        <div class='col-md-6'>{{product.MODELO}}</div>
                     </div>
                     <div class='row'>
-                        <div class='col-md-3'>Fabricante:</div>
-                        <div class='col-md-6'>{{product.brand}}</div>
+                        <div class='col-md-3'>Estiba:</div>
+                        <div class='col-md-6'>{{product.ESTIBA}}</div>
                     </div>
                     <div class='row'>
-                        <div class='col-md-3'>Precio:</div>
-                        <div class='col-md-6'>{{product.price| currency}}</div>
+                        <div class='col-md-3'>Uso:</div>
+                        <div class='col-md-6'>{{product.USO}}</div>
                     </div>
                     <div class='row'>
-                        <div class='col-md-3'>Categoria:</div>
-                        <div class='col-md-6'>{{product.category}}</div>
+                        <div class='col-md-3'>Capacidad (LBS):</div>
+                        <div class='col-md-6'>{{product.CAPACIDAD}}</div>
                     </div>
-                </div>
-                <div class='col-md-6'>
-                    <img class='center-block img-responsive' 
-                        [style.width.px]='200' 
-                        [style.margin.px]='2' 
-                        src="assets/images/products/{{ product.numParte }}.png"
-                        [title]='product.name'>
+                    <div class='row'>
+                        <div class='col-md-3'>Combustible</div>
+                        <div class='col-md-6'>{{product.COMBUSTIBLE}}</div>
+                    </div>
+                    <div class='row'>
+                        <div class='col-md-3'>Ancho De Pasillo</div>
+                        <div class='col-md-6'>{{product.ANCHO_DE_PASILLO}}</div>
+                    </div>
                 </div>
             </div>
         </div>

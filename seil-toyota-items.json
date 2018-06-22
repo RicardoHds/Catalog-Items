@@ -1,0 +1,702 @@
+[
+    {
+      "DESCRIPCIÓN": "COMBUSTION INT 3,000 LBS",
+      "MODELO": "8FGC15",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "12.21",
+      "ESTIBA": "1",
+      "USO.": "INT",
+      "CAPACIDAD (LBS)": "3,000 / < 5,000",
+      "COMBUSTIBLE": "GASOLINA/GAS LP",
+      "ANCHO DE PASILLO": "12-13 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "COMBUSTION INT 3,500 LBS",
+      "MODELO": "8FGC18",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "12.42",
+      "ESTIBA": "1",
+      "USO.": "INT",
+      "CAPACIDAD (LBS)": "3,000 / < 5,000",
+      "COMBUSTIBLE": "GASOLINA/GAS LP",
+      "ANCHO DE PASILLO": "12-13 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "COMBUSTION INT 4,000 LBS",
+      "MODELO": "8FGC20",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "12.55",
+      "ESTIBA": "1",
+      "USO.": "INT",
+      "CAPACIDAD (LBS)": "3,000 / < 5,000",
+      "COMBUSTIBLE": "GASOLINA/GAS LP",
+      "ANCHO DE PASILLO": "12-13 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "COMBUSTION INT 5,000 LBS",
+      "MODELO": "8FGC25",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "13.11",
+      "ESTIBA": "1",
+      "USO.": "INT",
+      "CAPACIDAD (LBS)": "5,000 / < 8,000",
+      "COMBUSTIBLE": "GASOLINA/GAS LP",
+      "ANCHO DE PASILLO": "12-13 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "COMBUSTION INT 6,000 LBS",
+      "MODELO": "8FGC30",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "13.38",
+      "ESTIBA": "1",
+      "USO.": "INT",
+      "CAPACIDAD (LBS)": "5,000 / < 8,000",
+      "COMBUSTIBLE": "GASOLINA/GAS LP",
+      "ANCHO DE PASILLO": "12-13 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "COMBUSTION INT 6,500 LBS",
+      "MODELO": "8FGC32",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "13.48",
+      "ESTIBA": "1",
+      "USO.": "INT",
+      "CAPACIDAD (LBS)": "5,000 / < 8,000",
+      "COMBUSTIBLE": "GASOLINA/GAS LP",
+      "ANCHO DE PASILLO": "12-13 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "COMBUSTION INT 8,000 LBS",
+      "MODELO": "8FGC35",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "14.21",
+      "ESTIBA": "1",
+      "USO.": "INT",
+      "CAPACIDAD (LBS)": "8,000 / < 12,000",
+      "COMBUSTIBLE": "GAS LP",
+      "ANCHO DE PASILLO": "14-15 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "COMBUSTION INT 10,000 LBS",
+      "MODELO": "8FGC45",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "14.58",
+      "ESTIBA": "1",
+      "USO.": "INT",
+      "CAPACIDAD (LBS)": "8,000 / < 12,000",
+      "COMBUSTIBLE": "GAS LP",
+      "ANCHO DE PASILLO": "14-15 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "COMBUSTION INT 12,000 LBS",
+      "MODELO": "8FGC55",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "15.08",
+      "ESTIBA": "1",
+      "USO.": "INT",
+      "CAPACIDAD (LBS)": "12,000 / <17,500",
+      "COMBUSTIBLE": "GAS LP",
+      "ANCHO DE PASILLO": "> 15 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "COMBUSTION INT 13,500 LBS",
+      "MODELO": "8FGC60",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "15.5",
+      "ESTIBA": "1",
+      "USO.": "INT",
+      "CAPACIDAD (LBS)": "12,000 / <17,500",
+      "COMBUSTIBLE": "GAS LP",
+      "ANCHO DE PASILLO": "> 15 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "COMBUSTION INT 15,500 LBS",
+      "MODELO": "8FGC70",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "15.5",
+      "ESTIBA": "1",
+      "USO.": "INT",
+      "CAPACIDAD (LBS)": "12,000 / <17,500",
+      "COMBUSTIBLE": "GAS LP",
+      "ANCHO DE PASILLO": "> 15 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "COMBUSTION INT 3,000 LBS",
+      "MODELO": "8FD15",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "12.91",
+      "ESTIBA": "1",
+      "USO.": "EXT",
+      "CAPACIDAD (LBS)": "3,000 / < 5,000",
+      "COMBUSTIBLE": "DIESEL",
+      "ANCHO DE PASILLO": "12-13 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "COMBUSTION INT 3,000 LBS",
+      "MODELO": "8FG15",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "12.93",
+      "ESTIBA": "1",
+      "USO.": "EXT",
+      "CAPACIDAD (LBS)": "3,000 / < 5,000",
+      "COMBUSTIBLE": "GAS LP",
+      "ANCHO DE PASILLO": "12-13 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "COMBUSTION INT 3,500 LBS",
+      "MODELO": "8FD18",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "13.08",
+      "ESTIBA": "1",
+      "USO.": "EXT",
+      "CAPACIDAD (LBS)": "3,000 / < 5,000",
+      "COMBUSTIBLE": "DIESEL",
+      "ANCHO DE PASILLO": "12-13 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "COMBUSTION INT 3,500 LBS",
+      "MODELO": "8FG18",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "13.08",
+      "ESTIBA": "1",
+      "USO.": "EXT",
+      "CAPACIDAD (LBS)": "3,000 / < 5,000",
+      "COMBUSTIBLE": "GAS LP",
+      "ANCHO DE PASILLO": "12-13 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "COMBUSTION INT 4,000 LBS",
+      "MODELO": "8FD20",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "13.85",
+      "ESTIBA": "1",
+      "USO.": "EXT",
+      "CAPACIDAD (LBS)": "3,000 / < 5,000",
+      "COMBUSTIBLE": "DIESEL",
+      "ANCHO DE PASILLO": "12-13 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "COMBUSTION INT 4,000 LBS",
+      "MODELO": "8FG20",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "13.85",
+      "ESTIBA": "1",
+      "USO.": "EXT",
+      "CAPACIDAD (LBS)": "3,000 / < 5,000",
+      "COMBUSTIBLE": "GAS LP",
+      "ANCHO DE PASILLO": "12-13 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "COMBUSTION INT 5,000 LBS",
+      "MODELO": "8FD25",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "14.08",
+      "ESTIBA": "1",
+      "USO.": "EXT",
+      "CAPACIDAD (LBS)": "5,000 / < 8,000",
+      "COMBUSTIBLE": "DIESEL",
+      "ANCHO DE PASILLO": "14-15 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "COMBUSTION INT 5,000 LBS",
+      "MODELO": "8FG25",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "14.08",
+      "ESTIBA": "1",
+      "USO.": "EXT",
+      "CAPACIDAD (LBS)": "5,000 / < 8,000",
+      "COMBUSTIBLE": "GAS LP",
+      "ANCHO DE PASILLO": "14-15 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "COMBUSTION INT 6,000 LBS",
+      "MODELO": "8FD30",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "14.53",
+      "ESTIBA": "1",
+      "USO.": "EXT",
+      "CAPACIDAD (LBS)": "5,000 / < 8,000",
+      "COMBUSTIBLE": "DIESEL",
+      "ANCHO DE PASILLO": "14-15 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "COMBUSTION INT 6,000 LBS",
+      "MODELO": "8FG30",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "14.53",
+      "ESTIBA": "1",
+      "USO.": "EXT",
+      "CAPACIDAD (LBS)": "5,000 / < 8,000",
+      "COMBUSTIBLE": "GAS LP",
+      "ANCHO DE PASILLO": "14-15 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "COMBUSTION INT 6,500 LBS",
+      "MODELO": "8FD32",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "14.62",
+      "ESTIBA": "1",
+      "USO.": "EXT",
+      "CAPACIDAD (LBS)": "5,000 / < 8,000",
+      "COMBUSTIBLE": "DIESEL",
+      "ANCHO DE PASILLO": "14-15 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "COMBUSTION INT 6,500 LBS",
+      "MODELO": "8FG32",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "14.62",
+      "ESTIBA": "1",
+      "USO.": "EXT",
+      "CAPACIDAD (LBS)": "5,000 / < 8,000",
+      "COMBUSTIBLE": "GAS LP",
+      "ANCHO DE PASILLO": "14-15 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "COMBUSTION INT 8,000 LBS",
+      "MODELO": "8FD35",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "15.46",
+      "ESTIBA": "1",
+      "USO.": "EXT",
+      "CAPACIDAD (LBS)": "8,000 / < 12,000",
+      "COMBUSTIBLE": "DIESEL",
+      "ANCHO DE PASILLO": "> 15 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "COMBUSTION INT 8,000 LBS",
+      "MODELO": "8FG35",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "15.46",
+      "ESTIBA": "1",
+      "USO.": "EXT",
+      "CAPACIDAD (LBS)": "8,000 / < 12,000",
+      "COMBUSTIBLE": "GAS LP",
+      "ANCHO DE PASILLO": "> 15 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "COMBUSTION INT 9,000 LBS",
+      "MODELO": "8FD40",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "15.63",
+      "ESTIBA": "1",
+      "USO.": "EXT",
+      "CAPACIDAD (LBS)": "8,000 / < 12,000",
+      "COMBUSTIBLE": "DIESEL",
+      "ANCHO DE PASILLO": "> 15 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "COMBUSTION INT 9,000 LBS",
+      "MODELO": "8FG40",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "15.63",
+      "ESTIBA": "1",
+      "USO.": "EXT",
+      "CAPACIDAD (LBS)": "8,000 / < 12,000",
+      "COMBUSTIBLE": "GAS LP",
+      "ANCHO DE PASILLO": "> 15 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "COMBUSTION INT 10,000 LBS",
+      "MODELO": "8FD45",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "16.04",
+      "ESTIBA": "1",
+      "USO.": "EXT",
+      "CAPACIDAD (LBS)": "8,000 / < 12,000",
+      "COMBUSTIBLE": "DIESEL",
+      "ANCHO DE PASILLO": "> 15 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "COMBUSTION INT 10,000 LBS",
+      "MODELO": "8FG45",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "16.04",
+      "ESTIBA": "1",
+      "USO.": "EXT",
+      "CAPACIDAD (LBS)": "8,000 / < 12,000",
+      "COMBUSTIBLE": "GAS LP",
+      "ANCHO DE PASILLO": "> 15 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "COMBUSTION INT 11,000 LBS",
+      "MODELO": "8FD50",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "16.29",
+      "ESTIBA": "1",
+      "USO.": "EXT",
+      "CAPACIDAD (LBS)": "8,000 / < 12,000",
+      "COMBUSTIBLE": "DIESEL",
+      "ANCHO DE PASILLO": "> 15 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "COMBUSTION INT 11,000 LBS",
+      "MODELO": "8FG50",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "16.29",
+      "ESTIBA": "1",
+      "USO.": "EXT",
+      "CAPACIDAD (LBS)": "8,000 / < 12,000",
+      "COMBUSTIBLE": "GAS LP",
+      "ANCHO DE PASILLO": "> 15 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "COMBUSTION INT 13,500 LBS",
+      "MODELO": "8FD60",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "17.75",
+      "ESTIBA": "1",
+      "USO.": "EXT",
+      "CAPACIDAD (LBS)": "12,000 / <17,500",
+      "COMBUSTIBLE": "DIESEL",
+      "ANCHO DE PASILLO": "> 15 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "COMBUSTION INT 13,500 LBS",
+      "MODELO": "8FG60",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "17.75",
+      "ESTIBA": "1",
+      "USO.": "EXT",
+      "CAPACIDAD (LBS)": "12,000 / <17,500",
+      "COMBUSTIBLE": "GAS LP",
+      "ANCHO DE PASILLO": "> 15 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "COMBUSTION INT 15,500 LBS",
+      "MODELO": "8FD70",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "17.92",
+      "ESTIBA": "1",
+      "USO.": "EXT",
+      "CAPACIDAD (LBS)": "12,000 / <17,500",
+      "COMBUSTIBLE": "DIESEL",
+      "ANCHO DE PASILLO": "> 15 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "COMBUSTION INT 15,500 LBS",
+      "MODELO": "8FG70",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "17.92",
+      "ESTIBA": "1",
+      "USO.": "EXT",
+      "CAPACIDAD (LBS)": "12,000 / <17,500",
+      "COMBUSTIBLE": "GAS LP",
+      "ANCHO DE PASILLO": "> 15 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "COMBUSTION INT 17,500 LBS",
+      "MODELO": "8FD80",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "18.08",
+      "ESTIBA": "1",
+      "USO.": "EXT",
+      "CAPACIDAD (LBS)": "12,000 / <17,500",
+      "COMBUSTIBLE": "DIESEL",
+      "ANCHO DE PASILLO": "> 15 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "COMBUSTION INT 17,500 LBS",
+      "MODELO": "8FG80",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "18.08",
+      "ESTIBA": "1",
+      "USO.": "EXT",
+      "CAPACIDAD (LBS)": ">- 17,500",
+      "COMBUSTIBLE": "GAS LP",
+      "ANCHO DE PASILLO": "> 15 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "ELECTRICO 3,000 LBS",
+      "MODELO": "8FBE15",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "11.26",
+      "ESTIBA": "1",
+      "USO.": "INT",
+      "CAPACIDAD (LBS)": "3,000 / < 5,000",
+      "COMBUSTIBLE": "ELECTRICO",
+      "ANCHO DE PASILLO": "10-11 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "ELECTRICO 3,500 LBS",
+      "MODELO": "8FBE18",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "11.43",
+      "ESTIBA": "1",
+      "USO.": "INT",
+      "CAPACIDAD (LBS)": "3,000 / < 5,000",
+      "COMBUSTIBLE": "ELECTRICO",
+      "ANCHO DE PASILLO": "10-11 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "ELECTRICO 4,000 LBS",
+      "MODELO": "8FBE20",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "11.68",
+      "ESTIBA": "1",
+      "USO.": "INT",
+      "CAPACIDAD (LBS)": "3,000 / < 5,000",
+      "COMBUSTIBLE": "ELECTRICO",
+      "ANCHO DE PASILLO": "10-11 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "ELECTRICO 3,000 LBS COMPACTO",
+      "MODELO": "7FBC15",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "12.09",
+      "ESTIBA": "1",
+      "USO.": "INT",
+      "CAPACIDAD (LBS)": "3,000 / < 5,000",
+      "COMBUSTIBLE": "ELECTRICO",
+      "ANCHO DE PASILLO": "12-13 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "ELECTRICO 3,500 LBS COMPACTO",
+      "MODELO": "7FBC18",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "12.09",
+      "ESTIBA": "1",
+      "USO.": "INT",
+      "CAPACIDAD (LBS)": "3,000 / < 5,000",
+      "COMBUSTIBLE": "ELECTRICO",
+      "ANCHO DE PASILLO": "12-13 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "ELECTRICO 4,000 LBS COMPACTO",
+      "MODELO": "8FBC20",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "12.52",
+      "ESTIBA": "1",
+      "USO.": "INT",
+      "CAPACIDAD (LBS)": "3,000 / < 5,000",
+      "COMBUSTIBLE": "ELECTRICO",
+      "ANCHO DE PASILLO": "12-13 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "ELECTRICO 5,000 LBS COMPACTO",
+      "MODELO": "8FBC25",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "13.01",
+      "ESTIBA": "1",
+      "USO.": "INT",
+      "CAPACIDAD (LBS)": "5,000 / < 8,000",
+      "COMBUSTIBLE": "ELECTRICO",
+      "ANCHO DE PASILLO": "12-13 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "ELECTRICO 5,500 LBS COMPACTO",
+      "MODELO": "8FBC28",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "12.78",
+      "ESTIBA": "1",
+      "USO.": "INT",
+      "CAPACIDAD (LBS)": "5,000 / < 8,000",
+      "COMBUSTIBLE": "ELECTRICO",
+      "ANCHO DE PASILLO": "12-13 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "ELECTRICO 6,000 LBS COMPACTO",
+      "MODELO": "8FBC30",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "13.16",
+      "ESTIBA": "1",
+      "USO.": "INT",
+      "CAPACIDAD (LBS)": "5,000 / < 8,000",
+      "COMBUSTIBLE": "ELECTRICO",
+      "ANCHO DE PASILLO": "12-13 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "ELECTRICO 6,500 LBS COMPACTO",
+      "MODELO": "8FBC32",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "13.28",
+      "ESTIBA": "1",
+      "USO.": "INT",
+      "CAPACIDAD (LBS)": "5,000 / < 8,000",
+      "COMBUSTIBLE": "ELECTRICO",
+      "ANCHO DE PASILLO": "12-13 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "ELECTRICO 8,000 LBS",
+      "MODELO": "7FBC35",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "13.8",
+      "ESTIBA": "1",
+      "USO.": "INT",
+      "CAPACIDAD (LBS)": "8,000 / < 12,000",
+      "COMBUSTIBLE": "ELECTRICO",
+      "ANCHO DE PASILLO": "12-13 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "ELECTRICO 10,000 LBS",
+      "MODELO": "7FBC45",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "14.14",
+      "ESTIBA": "1",
+      "USO.": "INT",
+      "CAPACIDAD (LBS)": "8,000 / < 12,000",
+      "COMBUSTIBLE": "ELECTRICO",
+      "ANCHO DE PASILLO": "14-15 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "ELECTRICO 12,000 LBS",
+      "MODELO": "7FBC55",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "14.99",
+      "ESTIBA": "1",
+      "USO.": "INT",
+      "CAPACIDAD (LBS)": "12,000 / <17,500",
+      "COMBUSTIBLE": "ELECTRICO",
+      "ANCHO DE PASILLO": "14-15 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "ELECTRICO HP 3,000 LBS. BATERIA: 18.5",
+      "MODELO": "8BNC15(18.5)",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "11.15",
+      "ESTIBA": "1",
+      "USO.": "INT",
+      "CAPACIDAD (LBS)": "3,000 / < 5,000",
+      "COMBUSTIBLE": "ELECTRICO",
+      "ANCHO DE PASILLO": "10-11 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "ELECTRICO HP 3,500 LBS. BATERIA: 18.5",
+      "MODELO": "8BNC18(18.5)",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "11.15",
+      "ESTIBA": "1",
+      "USO.": "INT",
+      "CAPACIDAD (LBS)": "3,000 / < 5,000",
+      "COMBUSTIBLE": "ELECTRICO",
+      "ANCHO DE PASILLO": "10-11 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "ELECTRICO HP 4,000 LBS. BATERIA: 18.5",
+      "MODELO": "8BNC20(18.5)",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "11.15",
+      "ESTIBA": "1",
+      "USO.": "INT",
+      "CAPACIDAD (LBS)": "3,000 / < 5,000",
+      "COMBUSTIBLE": "ELECTRICO",
+      "ANCHO DE PASILLO": "10-11 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "REACH TRUCK 3,500 LBS",
+      "MODELO": "9BRU18",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "8.98",
+      "ESTIBA": "1",
+      "USO.": "INT",
+      "CAPACIDAD (LBS)": "3,000 / < 5,000",
+      "COMBUSTIBLE": "ELECTRICO",
+      "ANCHO DE PASILLO": "< 10 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "REACH TRUCK 4,500 LBS",
+      "MODELO": "9BRU23",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "9.24",
+      "ESTIBA": "1",
+      "USO.": "INT",
+      "CAPACIDAD (LBS)": "3,000 / < 5,000",
+      "COMBUSTIBLE": "ELECTRICO",
+      "ANCHO DE PASILLO": "< 10 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "ORDER PICKER 3,000 LBS.",
+      "MODELO": "7BPUE15",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "5",
+      "ESTIBA": "1",
+      "USO.": "INT",
+      "CAPACIDAD (LBS)": "3,000 / < 5,000",
+      "COMBUSTIBLE": "ELECTRICO",
+      "ANCHO DE PASILLO": "< 10 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "WALKIE REACH TRUCK 3,000 LBS",
+      "MODELO": "6BWR15",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "8.50",
+      "ESTIBA": "1",
+      "USO.": "INT",
+      "CAPACIDAD (LBS)": "3,000 / < 5,000",
+      "COMBUSTIBLE": "ELECTRICO",
+      "ANCHO DE PASILLO": "< 10 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "WALKIE PALLET JACK 4,500 LBS",
+      "MODELO": "8HBW23",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "7.27",
+      "ESTIBA": "0",
+      "USO.": "INT",
+      "CAPACIDAD (LBS)": "3,000 / < 5,000",
+      "COMBUSTIBLE": "ELECTRICO",
+      "ANCHO DE PASILLO": "< 10 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "LARGE PALLET JACK 6,000 LBS",
+      "MODELO": "8HBW30",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "7.58",
+      "ESTIBA": "0",
+      "USO.": "INT",
+      "CAPACIDAD (LBS)": "5,000 / < 8,000",
+      "COMBUSTIBLE": "ELECTRICO",
+      "ANCHO DE PASILLO": "< 10 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "END CONTROLLED PALLET JACK RIDER 6,000 LBS",
+      "MODELO": "8HBE30",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "7.95",
+      "ESTIBA": "0",
+      "USO.": "INT",
+      "CAPACIDAD (LBS)": "5,000 / < 8,000",
+      "COMBUSTIBLE": "ELECTRICO",
+      "ANCHO DE PASILLO": "< 10 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "END CONTROLLED PALLET JACK RIDER 8,000 LBS",
+      "MODELO": "8HBE40",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "7.95",
+      "ESTIBA": "0",
+      "USO.": "INT",
+      "CAPACIDAD (LBS)": "8,000 / < 12,000",
+      "COMBUSTIBLE": "ELECTRICO",
+      "ANCHO DE PASILLO": "< 10 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "WALKIE STACKER 2,000 LBS",
+      "MODELO": "8BWS10",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "8.1",
+      "ESTIBA": "1",
+      "USO.": "INT",
+      "CAPACIDAD (LBS)": ">3,000",
+      "COMBUSTIBLE": "ELECTRICO",
+      "ANCHO DE PASILLO": "< 10 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "WALKIE STACKER 2,500 LBS",
+      "MODELO": "8BWS13",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "8.1",
+      "ESTIBA": "1",
+      "USO.": "INT",
+      "CAPACIDAD (LBS)": ">3,000",
+      "COMBUSTIBLE": "ELECTRICO",
+      "ANCHO DE PASILLO": "< 10 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "INDUSTRIAL WALKIE STACKER 2,000 LBS",
+      "MODELO": "6BWS11",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "8.2",
+      "ESTIBA": "1",
+      "USO.": "INT",
+      "CAPACIDAD (LBS)": ">3,000",
+      "COMBUSTIBLE": "ELECTRICO",
+      "ANCHO DE PASILLO": "< 10 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "INDUSTRIAL WALKIE STACKER 3,000 LBS",
+      "MODELO": "6BWS15",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "8.2",
+      "ESTIBA": "1",
+      "USO.": "INT",
+      "CAPACIDAD (LBS)": "3,000 / < 5,000",
+      "COMBUSTIBLE": "ELECTRICO",
+      "ANCHO DE PASILLO": "< 10 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "INDUSTRIAL WALKIE STACKER 4,000 LBS",
+      "MODELO": "6BWS20",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "8.2",
+      "ESTIBA": "1",
+      "USO.": "INT",
+      "CAPACIDAD (LBS)": "3,000 / < 5,000",
+      "COMBUSTIBLE": "ELECTRICO",
+      "ANCHO DE PASILLO": "< 10 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "INDUSTRIAL WALKIE COUNTERBALANCED STACKER 2,000 LBS",
+      "MODELO": "6BWC10",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "9.50",
+      "ESTIBA": "1",
+      "USO.": "INT",
+      "CAPACIDAD (LBS)": ">3,000",
+      "COMBUSTIBLE": "ELECTRICO",
+      "ANCHO DE PASILLO": "< 10 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "INDUSTRIAL WALKIE COUNTERBALANCED STACKER 3,000 LBS",
+      "MODELO": "6BWC15",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "9.50",
+      "ESTIBA": "1",
+      "USO.": "INT",
+      "CAPACIDAD (LBS)": "3,000 / < 5,000",
+      "COMBUSTIBLE": "ELECTRICO",
+      "ANCHO DE PASILLO": "< 10 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "INDUSTRIAL WALKIE COUNTERBALANCED STACKER 4,000 LBS",
+      "MODELO": "6BWC20",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "9.50",
+      "ESTIBA": "1",
+      "USO.": "INT",
+      "CAPACIDAD (LBS)": "3,000 / < 5,000",
+      "COMBUSTIBLE": "ELECTRICO",
+      "ANCHO DE PASILLO": "< 10 PIES"
+    },
+    {
+      "DESCRIPCIÓN": "TUGGER 10,000 LBS",
+      "MODELO": "8TB50",
+      "ANCHO DE PASILLO (PIES). (HOLGURA 15 PULGADAS, CARGA 48\")": "4",
+      "ESTIBA": "0",
+      "USO.": "INT",
+      "CAPACIDAD (LBS)": "8,000 / < 12,000",
+      "COMBUSTIBLE": "ELECTRICO",
+      "ANCHO DE PASILLO": "< 10 PIES"
+    }
+ ]

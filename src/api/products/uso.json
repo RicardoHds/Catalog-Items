@@ -1,0 +1,10 @@
+[
+    {
+        "usoId": "INT",
+        "name": "Interior"
+    },
+    {
+        "usoId": "EXT",
+        "name": "Exterior"
+    }
+]

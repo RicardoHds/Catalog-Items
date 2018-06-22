@@ -21,9 +21,9 @@ export class ProductRepositoryService {
         catchError(this.handleError), );
     }
 
-    getProduct(id: number): Observable<IProduct> {
+    getProduct(id: string): Observable<IProduct> {
         return this.getProducts().pipe(
-            map((products: IProduct[]) => products.find(p => +p.productId === id)));
+            map((products: IProduct[]) => products.find(p => p.MODELO === id)));
     }
 
     private handleError(err) {

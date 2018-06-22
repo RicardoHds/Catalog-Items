@@ -1,0 +1,26 @@
+[
+    {
+        "capacidadId": ">3,000",
+        "name": "Menor a 3,000 lbs"
+    },
+    {
+        "capacidadId": "3,000 / < 5,000",
+        "name": "De 3,000 a menos de 5,000 lbs"
+    },
+    {
+        "capacidadId": "5,000 / < 8,000",
+        "name": "De 5,000 a menos de 8,000 lbs"
+    },
+    {
+        "capacidadId": "8,000 / < 12,000",
+        "name": "De 8,000 a menos de 12,000 lbs"
+    },
+    {
+        "capacidadId": "12,000 / <17,500",
+        "name": "De 12,000 a menos de 17,500 lbs"
+    },
+    {
+        "capacidadId": "> 17,500",
+        "name": "Mayor a 17,500 lbs"
+    }
+]
